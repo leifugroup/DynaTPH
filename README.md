@@ -1,6 +1,4 @@
 # DynaTPH
-A multi-scale structural and biophysical dataset capturing the dynamic landscape of TCR–pHLA recognition.
-# DynaTPH
 
 **DynaTPH: A Multi-scale Structural and Biophysical Dataset Capturing the Dynamic Landscape of TCR–pHLA Recognition**
 
@@ -35,7 +33,7 @@ The DynaTPH dataset is organized into three major data categories: **Static Data
 The overall organization of the dataset is illustrated below.
 
 <p align="center">
-  <img src="figures/dataset_organization.png" width="90%">
+  <img src="dataset_organization.png" width="90%">
 </p>
 
 The repository is organized as follows:
