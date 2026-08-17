@@ -15,6 +15,8 @@ The dataset contains **256 curated TCR–pHLA complexes**, each simulated using 
 | Dataset                 | DynaTPH            |
 | Molecular system        | TCR–pHLA complexes |
 | Number of complexes     | 256                |
+| HLA class I complexes   | 205                |
+| HLA class II complexes  | 51                 |
 | MD replicas per complex | 3                  |
 | Total MD replicas       | 768                |
 | Production simulation   | 50 ns per replica  |
