@@ -1,0 +1,26 @@
+# This file was created Wed Jul  9 21:40:02 2025
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2023.5 (-:
+# 
+# Executable:   /ai/public/zhong/gromacs-2023.5/bin/gmx
+# Data prefix:  /ai/public/zhong/gromacs-2023.5
+# Working dir:  /ai/shan/immuno/hla-shan/6vma/1
+# Command line:
+#   gmx rmsf -s md.tpr -f 6vma_1.xtc -n chain_index.ndx -o 6vma_1_pep_rmsf.xvg -res -b 40000 -e 50000
+# gmx rmsf is part of G R O M A C S:
+#
+# GROwing Monsters And Cloning Shrimps
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.0514
+    2   0.0344
+    3   0.0428
+    4   0.0427
+    5   0.0445
+    6   0.0489
+    7   0.0925
+    8   0.0760
+    9   0.0489

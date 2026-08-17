@@ -1,0 +1,26 @@
+# This file was created Wed Jul  9 16:47:07 2025
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2023.5 (-:
+# 
+# Executable:   /ai/public/zhong/gromacs-2023.5/bin/gmx
+# Data prefix:  /ai/public/zhong/gromacs-2023.5
+# Working dir:  /ai/shan/immuno/hla-shan/5nmf/2
+# Command line:
+#   gmx rmsf -s md.tpr -f 5nmf_2.xtc -n chain_index.ndx -o 5nmf_2_pep_rmsf.xvg -res -b 40000 -e 50000
+# gmx rmsf is part of G R O M A C S:
+#
+# Guyana Rwanda Oman Macau Angola Cameroon Senegal
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.0453
+    2   0.0814
+    3   0.0358
+    4   0.0348
+    5   0.0327
+    6   0.0469
+    7   0.0394
+    8   0.0366
+    9   0.0537

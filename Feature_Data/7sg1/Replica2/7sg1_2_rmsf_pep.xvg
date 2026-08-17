@@ -1,0 +1,32 @@
+# This file was created Wed Jul  9 16:55:50 2025
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2023.5 (-:
+# 
+# Executable:   /ai/public/zhong/gromacs-2023.5/bin/gmx
+# Data prefix:  /ai/public/zhong/gromacs-2023.5
+# Working dir:  /ai/shan/immuno/hla-shan/7sg1/2
+# Command line:
+#   gmx rmsf -s md.tpr -f 7sg1_2.xtc -n chain_index.ndx -o 7sg1_2_pep_rmsf.xvg -res -b 40000 -e 50000
+# gmx rmsf is part of G R O M A C S:
+#
+# Gravel Rubs Often Many Awfully Cauterized Sores
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.1190
+    2   0.0693
+    3   0.0626
+    4   0.0712
+    5   0.0981
+    6   0.0552
+    7   0.0792
+    8   0.0959
+    9   0.0615
+   10   0.0670
+   11   0.0590
+   12   0.1098
+   13   0.1168
+   14   0.1193
+   15   0.2352

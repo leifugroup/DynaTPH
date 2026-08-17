@@ -1,0 +1,27 @@
+# This file was created Wed Jul  9 16:46:54 2025
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2023.5 (-:
+# 
+# Executable:   /ai/public/zhong/gromacs-2023.5/bin/gmx
+# Data prefix:  /ai/public/zhong/gromacs-2023.5
+# Working dir:  /ai/shan/immuno/hla-shan/5nht/1
+# Command line:
+#   gmx rmsf -s md.tpr -f 5nht_1.xtc -n chain_index.ndx -o 5nht_1_pep_rmsf.xvg -res -b 40000 -e 50000
+# gmx rmsf is part of G R O M A C S:
+#
+# Giant Rising Ordinary Mutants for A Clerical Setup
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.1272
+    2   0.1081
+    3   0.0730
+    4   0.0581
+    5   0.0970
+    6   0.0615
+    7   0.0757
+    8   0.0648
+    9   0.0496
+   10   0.0583

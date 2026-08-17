@@ -1,0 +1,26 @@
+# This file was created Wed Jul  9 21:23:28 2025
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2023.5 (-:
+# 
+# Executable:   /ai/public/zhong/gromacs-2023.5/bin/gmx
+# Data prefix:  /ai/public/zhong/gromacs-2023.5
+# Working dir:  /ai/shan/immuno/hla-shan/3sjv/1
+# Command line:
+#   gmx rmsf -s md.tpr -f 3sjv_1.xtc -n chain_index.ndx -o 3sjv_1_pep_rmsf.xvg -res -b 40000 -e 50000
+# gmx rmsf is part of G R O M A C S:
+#
+# Georgetown Riga Oslo Madrid Amsterdam Chisinau Stockholm
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.0511
+    2   0.0453
+    3   0.0419
+    4   0.0462
+    5   0.0417
+    6   0.0545
+    7   0.0615
+    8   0.0384
+    9   0.0542

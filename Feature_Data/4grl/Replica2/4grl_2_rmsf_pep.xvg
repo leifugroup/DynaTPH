@@ -1,0 +1,31 @@
+# This file was created Wed Jul  9 16:42:26 2025
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2023.5 (-:
+# 
+# Executable:   /ai/public/zhong/gromacs-2023.5/bin/gmx
+# Data prefix:  /ai/public/zhong/gromacs-2023.5
+# Working dir:  /ai/shan/immuno/hla-shan/4grl/2
+# Command line:
+#   gmx rmsf -s md.tpr -f 4grl_2.xtc -n chain_index.ndx -o 4grl_2_pep_rmsf.xvg -res -b 40000 -e 50000
+# gmx rmsf is part of G R O M A C S:
+#
+# Great Red Oystrich Makes All Chemists Sane
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.1436
+    2   0.1159
+    3   0.0875
+    4   0.0805
+    5   0.0620
+    6   0.0612
+    7   0.0536
+    8   0.0965
+    9   0.0486
+   10   0.0560
+   11   0.0627
+   12   0.0575
+   13   0.1528
+   14   0.1592

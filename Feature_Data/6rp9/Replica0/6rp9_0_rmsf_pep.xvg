@@ -1,0 +1,26 @@
+# This file was created Wed Jul  9 16:50:22 2025
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2023.5 (-:
+# 
+# Executable:   /ai/public/zhong/gromacs-2023.5/bin/gmx
+# Data prefix:  /ai/public/zhong/gromacs-2023.5
+# Working dir:  /ai/shan/immuno/hla-shan/6rp9/0
+# Command line:
+#   gmx rmsf -s md.tpr -f 6rp9_0.xtc -n chain_index.ndx -o 6rp9_0_pep_rmsf.xvg -res -b 40000 -e 50000
+# gmx rmsf is part of G R O M A C S:
+#
+# GROup of MAchos and Cynical Suckers
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.0602
+    2   0.0885
+    3   0.0495
+    4   0.0549
+    5   0.0404
+    6   0.0481
+    7   0.0543
+    8   0.0697
+    9   0.0447

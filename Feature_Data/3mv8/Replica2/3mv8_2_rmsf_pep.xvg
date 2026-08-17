@@ -1,0 +1,28 @@
+# This file was created Wed Jul  9 21:21:59 2025
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2023.5 (-:
+# 
+# Executable:   /ai/public/zhong/gromacs-2023.5/bin/gmx
+# Data prefix:  /ai/public/zhong/gromacs-2023.5
+# Working dir:  /ai/shan/immuno/hla-shan/3mv8/2
+# Command line:
+#   gmx rmsf -s md.tpr -f 3mv8_2.xtc -n chain_index.ndx -o 3mv8_2_pep_rmsf.xvg -res -b 40000 -e 50000
+# gmx rmsf is part of G R O M A C S:
+#
+# God Rules Over Mankind, Animals, Cosmos and Such
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.0536
+    2   0.0443
+    3   0.0512
+    4   0.0632
+    5   0.0838
+    6   0.0563
+    7   0.0792
+    8   0.0598
+    9   0.1734
+   10   0.0851
+   11   0.0661

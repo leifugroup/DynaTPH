@@ -1,0 +1,26 @@
+# This file was created Wed Jul  9 16:57:12 2025
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2023.5 (-:
+# 
+# Executable:   /ai/public/zhong/gromacs-2023.5/bin/gmx
+# Data prefix:  /ai/public/zhong/gromacs-2023.5
+# Working dir:  /ai/shan/immuno/hla-shan/8gom/2
+# Command line:
+#   gmx rmsf -s md.tpr -f 8gom_2.xtc -n chain_index.ndx -o 8gom_2_pep_rmsf.xvg -res -b 40000 -e 50000
+# gmx rmsf is part of G R O M A C S:
+#
+# GROningen Mixture of Alchemy and Childrens' Stories
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.0701
+    2   0.0916
+    3   0.1120
+    4   0.0678
+    5   0.0646
+    6   0.0564
+    7   0.0494
+    8   0.0381
+    9   0.0568

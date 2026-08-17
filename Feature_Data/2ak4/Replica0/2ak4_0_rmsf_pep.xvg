@@ -1,0 +1,30 @@
+# This file was created Wed Jul  9 21:17:28 2025
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2023.5 (-:
+# 
+# Executable:   /ai/public/zhong/gromacs-2023.5/bin/gmx
+# Data prefix:  /ai/public/zhong/gromacs-2023.5
+# Working dir:  /ai/shan/immuno/hla-shan/2ak4/0
+# Command line:
+#   gmx rmsf -s md.tpr -f 2ak4_0.xtc -n chain_index.ndx -o 2ak4_0_pep_rmsf.xvg -res -b 40000 -e 50000
+# gmx rmsf is part of G R O M A C S:
+#
+# Gallium Rubidium Oxygen Manganese Argon Carbon Silicon
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.0914
+    2   0.0574
+    3   0.0644
+    4   0.0653
+    5   0.0809
+    6   0.0467
+    7   0.0663
+    8   0.0409
+    9   0.1130
+   10   0.0636
+   11   0.1292
+   12   0.0587
+   13   0.0596

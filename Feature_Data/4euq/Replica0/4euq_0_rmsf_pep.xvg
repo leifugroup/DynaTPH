@@ -1,0 +1,27 @@
+# This file was created Wed Jul  9 16:41:48 2025
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2023.5 (-:
+# 
+# Executable:   /ai/public/zhong/gromacs-2023.5/bin/gmx
+# Data prefix:  /ai/public/zhong/gromacs-2023.5
+# Working dir:  /ai/shan/immuno/hla-shan/4euq/0
+# Command line:
+#   gmx rmsf -s md.tpr -f 4euq_0.xtc -n chain_index.ndx -o 4euq_0_pep_rmsf.xvg -res -b 40000 -e 50000
+# gmx rmsf is part of G R O M A C S:
+#
+# Good ROcking Metal Altar for Chronical Sinners
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.1104
+    2   0.0551
+    3   0.0635
+    4   0.0463
+    5   0.0741
+    6   0.0474
+    7   0.0652
+    8   0.0705
+    9   0.0487
+   10   0.0616

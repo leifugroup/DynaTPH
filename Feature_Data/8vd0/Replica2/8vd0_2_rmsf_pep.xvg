@@ -1,0 +1,33 @@
+# This file was created Mon Jul  7 22:19:51 2025
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2023.5 (-:
+# 
+# Executable:   /ai/public/zhong/gromacs-2023.5/bin/gmx
+# Data prefix:  /ai/public/zhong/gromacs-2023.5
+# Working dir:  /ai/shan/immuno2/hla2/8vd0/2
+# Command line:
+#   gmx rmsf -s md.tpr -f 8vd0_2.xtc -n chain_index.ndx -o 8vd0_2_pep_rmsf.xvg -res -b 40000 -e 50000
+# gmx rmsf is part of G R O M A C S:
+#
+# Gyas ROwers Mature At Cryogenic Speed
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.0918
+    2   0.1080
+    3   0.0637
+    4   0.0880
+    5   0.1063
+    6   0.0557
+    7   0.0593
+    8   0.0529
+    9   0.0547
+   10   0.0684
+   11   0.1022
+   12   0.0721
+   13   0.0998
+   14   0.1874
+   15   0.2590
+   16   0.1964

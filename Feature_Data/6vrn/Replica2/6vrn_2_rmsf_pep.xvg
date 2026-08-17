@@ -1,0 +1,26 @@
+# This file was created Wed Jul  9 16:52:25 2025
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2023.5 (-:
+# 
+# Executable:   /ai/public/zhong/gromacs-2023.5/bin/gmx
+# Data prefix:  /ai/public/zhong/gromacs-2023.5
+# Working dir:  /ai/shan/immuno/hla-shan/6vrn/2
+# Command line:
+#   gmx rmsf -s md.tpr -f 6vrn_2.xtc -n chain_index.ndx -o 6vrn_2_pep_rmsf.xvg -res -b 40000 -e 50000
+# gmx rmsf is part of G R O M A C S:
+#
+# Glycine aRginine prOline Methionine Alanine Cystine Serine
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.1429
+    2   0.0508
+    3   0.0513
+    4   0.0784
+    5   0.0604
+    6   0.0922
+    7   0.0479
+    8   0.0656
+    9   0.0499

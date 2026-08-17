@@ -1,0 +1,32 @@
+# This file was created Wed Jul  9 21:20:15 2025
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2023.5 (-:
+# 
+# Executable:   /ai/public/zhong/gromacs-2023.5/bin/gmx
+# Data prefix:  /ai/public/zhong/gromacs-2023.5
+# Working dir:  /ai/shan/immuno/hla-shan/2wbj/1
+# Command line:
+#   gmx rmsf -s md.tpr -f 2wbj_1.xtc -n chain_index.ndx -o 2wbj_1_pep_rmsf.xvg -res -b 40000 -e 50000
+# gmx rmsf is part of G R O M A C S:
+#
+# Gromacs Runs One Microsecond At Cannonball Speeds
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.3049
+    2   0.2187
+    3   0.1594
+    4   0.0798
+    5   0.1289
+    6   0.0912
+    7   0.0723
+    8   0.0667
+    9   0.0845
+   10   0.0554
+   11   0.0544
+   12   0.0793
+   13   0.0925
+   14   0.0552
+   15   0.1093

@@ -1,0 +1,26 @@
+# This file was created Wed Jul  9 16:51:13 2025
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2023.5 (-:
+# 
+# Executable:   /ai/public/zhong/gromacs-2023.5/bin/gmx
+# Data prefix:  /ai/public/zhong/gromacs-2023.5
+# Working dir:  /ai/shan/immuno/hla-shan/6uk2/2
+# Command line:
+#   gmx rmsf -s md.tpr -f 6uk2_2.xtc -n chain_index.ndx -o 6uk2_2_pep_rmsf.xvg -res -b 40000 -e 50000
+# gmx rmsf is part of G R O M A C S:
+#
+# Good gRace! Old Maple Actually Chews Slate
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.0572
+    2   0.0393
+    3   0.0316
+    4   0.0576
+    5   0.0399
+    6   0.0440
+    7   0.0654
+    8   0.0997
+    9   0.0576
