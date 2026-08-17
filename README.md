@@ -2,10 +2,13 @@
 
 **DynaTPH: A Multi-scale Structural and Biophysical Dataset Capturing the Dynamic Landscape of TCR–pHLA Recognition**
 
-DynaTPH is a multidimensional structural and biophysical dataset designed to characterize the dynamic landscape of T-cell receptor (TCR) recognition of peptide–human leukocyte antigen (pHLA) complexes. The dataset integrates curated experimental TCR–pHLA structures, molecular dynamics (MD) simulations, and trajectory-derived physicochemical descriptors to provide complementary information on static structures, molecular dynamics, and interface properties.
+DynaTPH is a systematically curated structural dynamics dataset of human T cell receptor–peptide–human leukocyte antigen (TCR–pHLA) complexes, integrating **static experimental structures, molecular dynamics (MD) trajectories and corresponding structural frames, and multidimensional physicochemical properties**. The dataset covers both **HLA class I and class II** complexes and is designed to provide a comprehensive representation of the structural and dynamic landscape of TCR–pHLA recognition. DynaTPH comprises 256 representative TCR–pHLA complexes, each subjected to three independent 50 ns all-atom MD simulations, resulting in 38.4 μs of cumulative simulation time. The dataset includes curated starting structures, dynamic trajectories, trajectory-derived structural frames, and multidimensional physicochemical descriptors, including hydrogen bonds, intermolecular contacts, solvent-accessible surface area, and conformational flexibility.
 
-The dataset contains **256 curated TCR–pHLA complexes**, each simulated using three independent MD replicas of 50 ns, resulting in **768 independent trajectories** and **38.4 μs of total simulation time**.
+DynaTPH was constructed through a multi-stage workflow integrating data collecting and screeing, structural filtering and preprocessing,  molecular dynamics simulations, and trajectory-based physicochemical analysis.
 
+<p align="center">
+  <img src="dataset_workflow.png" width="95%">
+</p>
 ---
 
 ## Dataset Overview
