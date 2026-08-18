@@ -84,7 +84,7 @@ The `Dynamic Data` directory contains the molecular dynamics trajectories and co
 
 Because of the large size of the trajectory and frame files, **Dynamic Data is not included in this GitHub repository**.
 
-Instead, the complete `Dynamic Data` directory is available as part of the full DynaTPH dataset archived on **Zenodo**.
+Instead, the complete `Dynamic Data` directory is available as part of the full DynaTPH dataset archived on **Zenodo DOI: 10.5281/zenodo.21971877**.
 
 The dynamic data are organized by PDB ID and simulation replica:
 
