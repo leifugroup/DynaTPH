@@ -206,7 +206,7 @@ The molecular dynamics simulations were performed using a standardized simulatio
 
 | Parameter                 | Setting                   |
 | ------------------------- | ------------------------- |
-| MD engine                 | GROMACS 2023.5            |
+| MD software                 | GROMACS 2023.5            |
 | Force field               | CHARMM36m                 |
 | Water model               | TIP3P                     |
 | Replicas                  | 3 independent simulations |
