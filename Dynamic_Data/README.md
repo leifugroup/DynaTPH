@@ -1,7 +1,7 @@
 # DynaTPH
 
----
 
+```text
 Dynamic_Data/
 ├── 1ao7
 │   ├── Replica0
@@ -34,5 +34,6 @@ Dynamic_Data/
     └── Replica2
         ├── 8yj2_2.xtc
         └── Frames
+```
 
-**The complete `Dynamic Data` directory is available as part of the full DynaTPH dataset archived on **Zenodo DOI: 10.5281/zenodo.21971877**
+**The complete `Dynamic_Data` directory** is available as part of the full DynaTPH dataset archived on **Zenodo DOI: 10.5281/zenodo.21971877**
