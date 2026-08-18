@@ -53,7 +53,7 @@ DynaTPH/
 └── README.md
 ```
 
-The complete dataset additionally contains the `Dynamic Data` directory, which is archived on Zenodo because of its large storage requirements.
+The complete dataset additionally contains the `Dynamic Data` directory, which is archived on Zenodo DOI: 10.5281/zenodo.21971877, because of its large storage requirements.
 
 ---
 
