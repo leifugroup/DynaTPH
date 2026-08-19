@@ -1,11 +1,15 @@
-# DynaTPH
+# DynaTPH Dataset Repository
 
-**DynaTPH: A Multi-scale Structural and Biophysical Dataset Capturing the Dynamic Landscape of TCR–pHLA Recognition**
+Welcome to the DynaTPH dataset repository! 
 
 DynaTPH is a systematically curated structural and biophysical dataset of human T cell receptor–peptide–human leukocyte antigen (TCR–pHLA) complexes, integrating **static experimental structures, molecular dynamics (MD) trajectories and corresponding structural frames, and multidimensional physicochemical properties**. The dataset covers both **HLA class I and class II** complexes and is designed to provide a comprehensive representation of the structural and dynamic landscape of TCR–pHLA recognition. DynaTPH comprises 256 representative TCR–pHLA complexes, each subjected to three independent 50 ns all-atom MD simulations, resulting in 38.4 μs of cumulative simulation time. The dataset includes curated starting structures, dynamic trajectories, trajectory-derived structural frames, and multidimensional physicochemical descriptors, including hydrogen bonds, intermolecular contacts, solvent-accessible surface area, and conformational flexibility.
 
 ---
+## Useful Links
 
+Zenodo：The complete DynaTPH dataset is available on Zenodo ** DOI: 10.5281/zenodo.21971877 **
+
+---
 ## Dataset Overview
 
 | Item                    | Description        |
@@ -192,11 +196,6 @@ Because peptide sequences have variable lengths, residue-level RMSF values are p
 
 ---
 
-## Data Availability
-
-### Zenodo：The complete DynaTPH dataset, including Dynamic Data is available on Zenodo. Zenodo DOI:** 10.5281/zenodo.21971877
-
----
 
 ## Citation
 
