@@ -2,23 +2,46 @@
 
 Welcome to the DynaTPH dataset repository! 
 
-DynaTPH is a systematically curated structural and biophysical dataset of human T cell receptor–peptide–human leukocyte antigen (TCR–pHLA) complexes, integrating **static experimental structures, molecular dynamics (MD) trajectories and corresponding structural frames, and multidimensional physicochemical properties**. The dataset covers both **HLA class I and class II** complexes and is designed to provide a comprehensive representation of the structural and dynamic landscape of TCR–pHLA recognition. DynaTPH comprises 256 representative TCR–pHLA complexes, each subjected to three independent 50 ns all-atom MD simulations, resulting in 38.4 μs of cumulative simulation time. The dataset includes curated starting structures, dynamic trajectories, trajectory-derived structural frames, and multidimensional physicochemical descriptors, including hydrogen bonds, intermolecular contacts, solvent-accessible surface area, and conformational flexibility. 
+DynaTPH is a systematically curated structural and biophysical dataset of human T cell receptor-peptide-human leukocyte antigen (TCR-pHLA) complexes, integrating **static experimental structures, molecular dynamics (MD) trajectories and corresponding structural frames, and multidimensional physicochemical properties**. The dataset covers both **HLA class I and class II** complexes and is designed to provide a comprehensive representation of the structural and dynamic landscape of TCR-pHLA recognition. DynaTPH comprises 256 representative TCR-pHLA complexes, each subjected to three independent 50 ns all-atom MD simulations, resulting in 38.4 μs of cumulative simulation time. The dataset includes curated starting structures, dynamic trajectories, trajectory-derived structural frames, and multidimensional physicochemical descriptors, including hydrogen bonds, intermolecular contacts, solvent-accessible surface area, and conformational flexibility. 
 
-**This Github repository contains a lightweight version of the DynaTPH dataset** and data filtering scripts for building the dataset.
+ **This GitHub repository contains a lightweight version of the DynaTPH dataset and dataset-specific scripts used for data collection and screening.**
 
 ---
+
 ## Useful Links
 
 **Zenodo**：The complete DynaTPH dataset is available on Zenodo **DOI: 10.5281/zenodo.21971877**
 
+---
+
+## Dataset Workflow and Scripts
+The overall workflow used to construct the DynaTPH dataset is illustrated below.
+
+<p align="center">
+  <img src="dataset_workflow.png" width="90%">
+</p>
+
+The scripts provided in this repository correspond to the **Data Collection and Screening** stage of the DynaTPH dataset construction workflow. They were developed specifically for DynaTPH to  screen and organize TCR-pHLA structures collected from multiple structural databases.
+
+The database-specific scripts are named according to their corresponding source databases. After the initial screening, `combine.ipynb` was used to combine the screened records from different databases and remove duplicate structures.
+
+The scripts are organized as follows:
+
+```text
+scripts/
+├── <Database_1>.ipynb
+├── <Database_2>.ipynb
+├── <Database_3>.ipynb
+└── combine.ipynb
 
 ---
+
 ## Dataset Overview
 
 | Item                    | Description        |
 | ----------------------- | ------------------ |
 | Dataset                 | DynaTPH            |
-| Molecular system        | TCR–pHLA complexes |
+| Molecular system        | TCR-pHLA complexes |
 | Number of complexes     | 256                |
 | HLA class I complexes   | 205                |
 | HLA class II complexes  | 51                 |
@@ -43,12 +66,13 @@ The overall organization of the dataset is illustrated below.
   <img src="dataset_organization.png" width="90%">
 </p>
 
-**This Github repository (excluding Dynamic Data) is organized as follows :**
+**This GitHub repository contains the lightweight components of DynaTPH and is organized as follows:**
 
 ```text
 DynaTPH/
 ├── Static Data/
 ├── Feature Data/
+├── scripts/
 ├── descriptor.csv
 ├── rmsf.csv
 └── README.md
@@ -62,7 +86,7 @@ The complete dataset additionally contains the `Dynamic Data` directory, which i
 
 ### 1. Static Data
 
-The `Static Data` directory contains curated TCR–pHLA complex structures used as the initial configurations for molecular dynamics simulations.
+The `Static Data` directory contains curated TCR-pHLA complex structures used as the initial configurations for molecular dynamics simulations.
 
 Each structure is provided in PDB format and named according to its PDB ID.
 
@@ -73,7 +97,7 @@ Static Data/
 └── ...
 ```
 
-A total of **256 TCR–pHLA complexes** are included.
+A total of **256 TCR-pHLA complexes** are included.
 
 The structures were curated and preprocessed before MD simulations to obtain standardized starting configurations. Structure preprocessing information is recorded in `descriptor.csv`.
 
@@ -81,7 +105,7 @@ The structures were curated and preprocessed before MD simulations to obtain sta
 
 ### 2. Dynamic Data
 
-The `Dynamic Data` directory contains the molecular dynamics trajectories and corresponding structural frames generated for the 256 TCR–pHLA complexes.
+The `Dynamic Data` directory contains the molecular dynamics trajectories and corresponding structural frames generated for the 256 TCR-pHLA complexes.
 
 Because of the large size of the trajectory and frame files, **Dynamic Data is not included in this GitHub repository**.
 
@@ -116,7 +140,7 @@ Each replica consists of a **50 ns production trajectory** stored in XTC format 
 
 Structural frames were extracted from the trajectories at **50 ps intervals**, resulting in **1,001 frames per replica**, including the initial frame at 0 ps.
 
-The first frame (0 ps) corresponds to the initial TCR–pHLA complex structure used for the corresponding simulation.
+The first frame (0 ps) corresponds to the initial TCR-pHLA complex structure used for the corresponding simulation.
 
 The index `i` in replica-specific file names denotes:
 
@@ -124,7 +148,7 @@ The index `i` in replica-specific file names denotes:
 * `i = 1`: `Replica1`
 * `i = 2`: `Replica2`
 
-All trajectories and extracted frames contain the TCR–pHLA complex, with solvent molecules and ions removed.
+All trajectories and extracted frames contain the TCR-pHLA complex, with solvent molecules and ions removed.
 
 ---
 
@@ -152,8 +176,8 @@ The feature data include trajectory-derived properties such as:
 
 Interface-specific descriptors are provided for both:
 
-* `TCR_pHLA`: TCR–pHLA interface
-* `pep_HLA`: peptide–HLA interface
+* `TCR_pHLA`: TCR-pHLA interface
+* `pep_HLA`: peptide-HLA interface
 
 These features provide complementary information on structural stability, conformational fluctuations, intermolecular hydrogen bonding, and interfacial contacts during the MD simulations.
 
@@ -163,7 +187,7 @@ These features provide complementary information on structural stability, confor
 
 `descriptor.csv` is the **system-level descriptor file** of DynaTPH.
 
-Each row corresponds to one TCR–pHLA complex and is indexed by PDB ID.
+Each row corresponds to one TCR-pHLA complex and is indexed by PDB ID.
 
 The file contains structural, sequence, physicochemical, and dynamic information, including:
 
@@ -178,10 +202,10 @@ The file contains structural, sequence, physicochemical, and dynamic information
 #### Physicochemical and interface properties
 
 * peptide SASA
-* peptide–HLA hydrogen-bond counts
-* peptide–HLA contact counts
-* TCR–pHLA hydrogen-bond counts
-* TCR–pHLA contact counts
+* peptide-HLA hydrogen-bond counts
+* peptide-HLA contact counts
+* TCR-pHLA hydrogen-bond counts
+* TCR-pHLA contact counts
 
 Dynamic quantities were calculated from the three independent MD trajectories using a consistent analysis workflow and summarized at the system level.
 
@@ -191,7 +215,7 @@ Information describing structural modifications and preprocessing applied before
 
 ### 5. `rmsf.csv`
 
-`rmsf.csv` provides **residue-level RMSF information for peptide residues** in individual TCR–pHLA complexes.
+`rmsf.csv` provides **residue-level RMSF information for peptide residues** in individual TCR-pHLA complexes.
 
 Each RMSF value is associated with a specific peptide residue and PDB ID.
 
