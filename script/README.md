@@ -1,6 +1,8 @@
 # DynaTPH
 
-Jupyter notebooks that clean TCR–peptide–MHC structure records from **six public databases** into curated lists of **human (HLA-restricted) PDB structures**, then merge them into one final PDB → HLA table.
+Jupyter notebooks used for the **data collection and screening** stage of DynaTPH. The notebooks process TCR–peptide–MHC structure records collected from six public databases and identify human HLA-restricted PDB structures for subsequent dataset curation.
+﻿
+The screened records from the six databases are then combined and deduplicated using `combine.ipynb`.
 
 ## What each notebook does
 
