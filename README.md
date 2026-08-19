@@ -200,48 +200,6 @@ This organization preserves the residue-level information without introducing a 
 
 ---
 
-## Molecular Dynamics Simulations
-
-The molecular dynamics simulations were performed using a standardized simulation workflow.
-
-| Parameter                 | Setting                   |
-| ------------------------- | ------------------------- |
-| MD software                 | GROMACS 2023.5            |
-| Force field               | CHARMM36m                 |
-| Water model               | TIP3P                     |
-| Replicas                  | 3 independent simulations |
-| Production time           | 50 ns per replica         |
-| Total simulation time     | 38.4 μs                   |
-| Frame extraction interval | 50 ps                     |
-| Frames per replica        | 1,001                     |
-
-For detailed simulation and analysis protocols, please refer to the associated publication.
-
----
-
-## File Naming Conventions
-
-The dataset uses consistent naming conventions across trajectory and feature files.
-
-### Simulation replicas
-
-| Identifier | Replica    |
-| ---------- | ---------- |
-| `0`        | `Replica0` |
-| `1`        | `Replica1` |
-| `2`        | `Replica2` |
-
-### Interface identifiers
-
-| Identifier | Meaning               |
-| ---------- | --------------------- |
-| `TCR_pHLA` | TCR–pHLA interface    |
-| `pep_HLA`  | peptide–HLA interface |
-
-PDB IDs are used consistently across the Static Data, Dynamic Data, Feature Data, and descriptor files to enable cross-referencing between different data modalities.
-
----
-
 ## Data Availability
 
 ### GitHub Repository
