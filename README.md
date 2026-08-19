@@ -41,7 +41,7 @@ The overall organization of the dataset is illustrated below.
   <img src="dataset_organization.png" width="90%">
 </p>
 
-This Github repository is organized as follows:
+**This Github repository (excluding Dynamic Data) is organized as follows :**
 
 ```text
 DynaTPH/
