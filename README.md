@@ -11,7 +11,7 @@ DynaTPH is a systematically curated structural and biophysical dataset of human 
 ## Useful Links
 
 **Zenodo**：The complete DynaTPH dataset is available on Zenodo **DOI: 10.5281/zenodo.21971877** 
-（The dataset is currently restricted for peer review and will be made publicly available following publication.）
+（The Zenodo repository is currently restricted for peer review.）
 
 The complete `Dynamic Data` are archived on Zenodo because of their large storage requirements.
 
@@ -77,8 +77,6 @@ DynaTPH/
 └── README.md
 ```
 
-The complete dataset additionally contains the `Dynamic Data` directory, which is archived on Zenodo DOI: 10.5281/zenodo.21971877, because of its large storage requirements.
-
 ---
 
 ## Data Description
@@ -108,7 +106,7 @@ The `Dynamic Data` directory contains the molecular dynamics trajectories and co
 
 Because of the large size of the trajectory and frame files, **Dynamic Data is not included in this GitHub repository**.
 
-Instead, the complete `Dynamic Data` directory is available as part of the full DynaTPH dataset archived on **Zenodo DOI: 10.5281/zenodo.21971877**.（The dataset is currently restricted for peer review and will be made publicly available following publication.）
+Instead, the complete `Dynamic Data` directory is available as part of the full DynaTPH dataset archived on **Zenodo DOI: 10.5281/zenodo.21971877**.（The dataset is currently restricted for peer review and will be made publicly available soon.）
 
 ---
 
