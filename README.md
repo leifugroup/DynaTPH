@@ -10,30 +10,20 @@ DynaTPH is a systematically curated structural and biophysical dataset of human 
 
 ## Useful Links
 
-**Zenodo**：The complete DynaTPH dataset is available on Zenodo **DOI: 10.5281/zenodo.21971877**
+**Zenodo**：The complete DynaTPH dataset is available on Zenodo **DOI: 10.5281/zenodo.21971877** (Not yet publicly available)
+
+The complete `Dynamic Data` are archived on Zenodo because of their large storage requirements.
 
 ---
 
-## Dataset Workflow and Scripts
+## Dataset Workflow
 The overall workflow used to construct the DynaTPH dataset is illustrated below.
 
 <p align="center">
   <img src="dataset_workflow.png" width="90%">
 </p>
 
-The scripts provided in this repository correspond to the **Data Collection and Screening** stage of the DynaTPH dataset construction workflow. They were developed specifically for DynaTPH to  screen and organize TCR-pHLA structures collected from multiple structural databases.
-
-The database-specific scripts are named according to their corresponding source databases. After the initial screening, `combine.ipynb` was used to combine the screened records from different databases and remove duplicate structures.
-
-The scripts are organized as follows:
-
-```text
-scripts/
-├── <Database_1>.ipynb
-├── <Database_2>.ipynb
-├── <Database_3>.ipynb
-└── combine.ipynb
-```
+The scripts provided in this repository correspond to the **Data Collection and Screening** stage of the workflow. Database-specific scripts were used to screen TCR-pHLA structures collected from multiple structural databases, followed by `combine.ipynb` for combining screened records and removing duplicate structures. Detailed information on script inputs, outputs, and usage is provided in scripts/README.md
 
 ---
 
