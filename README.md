@@ -58,6 +58,12 @@ The overall organization of the dataset is illustrated below.
   <img src="dataset_organization.png" width="90%">
 </p>
 
+Static Data — curated and standardized TCR-pHLA structural data;
+Dynamic Data — molecular dynamics trajectories and frames generated for the 256 complexes;
+Feature Data — structural and biophysical features derived from the structures and MD simulations;
+descriptor.csv— structure-level descriptors for the TCR-pHLA complexes;
+rmsf.csv— a residue-level table containing RMSF values derived from the MD trajectories.
+
 **This GitHub repository contains the lightweight components of DynaTPH and is organized as follows:**
 
 ```text
@@ -102,45 +108,6 @@ The `Dynamic Data` directory contains the molecular dynamics trajectories and co
 Because of the large size of the trajectory and frame files, **Dynamic Data is not included in this GitHub repository**.
 
 Instead, the complete `Dynamic Data` directory is available as part of the full DynaTPH dataset archived on **Zenodo DOI: 10.5281/zenodo.21971877**.
-
-The dynamic data are organized by PDB ID and simulation replica:
-
-```text
-Dynamic Data/
-└── PDB_ID/
-    ├── Replica0/
-    │   ├── *.xtc
-    │   └── Frames/
-    │       ├── *.pdb
-    │       ├── *.pdb
-    │       └── ...
-    ├── Replica1/
-    │   ├── *.xtc
-    │   └── Frames/
-    └── Replica2/
-        ├── *.xtc
-        └── Frames/
-```
-
-Each complex contains three independent simulations:
-
-* `Replica0`
-* `Replica1`
-* `Replica2`
-
-Each replica consists of a **50 ns production trajectory** stored in XTC format and a corresponding `Frames` directory.
-
-Structural frames were extracted from the trajectories at **50 ps intervals**, resulting in **1,001 frames per replica**, including the initial frame at 0 ps.
-
-The first frame (0 ps) corresponds to the initial TCR-pHLA complex structure used for the corresponding simulation.
-
-The index `i` in replica-specific file names denotes:
-
-* `i = 0`: `Replica0`
-* `i = 1`: `Replica1`
-* `i = 2`: `Replica2`
-
-All trajectories and extracted frames contain the TCR-pHLA complex, with solvent molecules and ions removed.
 
 ---
 
