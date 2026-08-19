@@ -6,8 +6,9 @@ DynaTPH is a systematically curated structural and biophysical dataset of human 
 
 ---
 ## Useful Links
+This repository contains a lightweight version of the DynaTPH dataset and filtering scripts for building the dataset.
+**Zenodo**：The complete DynaTPH dataset is available on Zenodo **DOI: 10.5281/zenodo.21971877**
 
-Zenodo：The complete DynaTPH dataset is available on Zenodo ** DOI: 10.5281/zenodo.21971877 **
 
 ---
 ## Dataset Overview
