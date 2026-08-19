@@ -196,13 +196,11 @@ Each RMSF value is associated with a specific peptide residue and PDB ID.
 
 Because peptide sequences have variable lengths, residue-level RMSF values are provided separately rather than being incorporated into the fixed-column, system-level `descriptor.csv`.
 
-This organization preserves the residue-level information without introducing a large number of length-dependent columns into the system-level descriptor table.
-
 ---
 
 ## Data Availability
 
-### GitHub Repository
+### GitHub
 
 This GitHub repository provides the lightweight and directly accessible components of DynaTPH, including:
 
@@ -214,7 +212,7 @@ This GitHub repository provides the lightweight and directly accessible componen
 
 The large `Dynamic Data` directory is intentionally excluded from this GitHub repository because of its substantial storage requirements.
 
-### Complete Dataset
+### Zenodo
 
 **The complete DynaTPH dataset is available on Zenodo.**
 
