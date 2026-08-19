@@ -208,13 +208,12 @@ This GitHub repository provides the lightweight and directly accessible componen
 * `Feature Data`
 * `descriptor.csv`
 * `rmsf.csv`
-* dataset documentation and organization information
 
 The large `Dynamic Data` directory is intentionally excluded from this GitHub repository because of its substantial storage requirements.
 
 ### Zenodo
 
-**The complete DynaTPH dataset is available on Zenodo.**
+**The complete DynaTPH dataset, including Dynamic Data is available on Zenodo.**
 
 The Zenodo archive contains **all components of the dataset**, including:
 
@@ -224,8 +223,6 @@ The Zenodo archive contains **all components of the dataset**, including:
 * `descriptor.csv`
 * `rmsf.csv`
 
-Thus, **Zenodo should be used as the complete and archived version of the DynaTPH dataset**, whereas this GitHub repository provides a convenient, lightweight entry point for accessing and exploring the dataset.
-
 **Zenodo DOI:** 10.5281/zenodo.21971877
 
 ---
@@ -233,13 +230,6 @@ Thus, **Zenodo should be used as the complete and archived version of the DynaTP
 ## Citation
 
 If you use DynaTPH in your research, please cite the associated publication and the archived dataset.
-
-### Dataset
-
-DynaTPH. Zenodo.
-DOI: **10.5281/zenodo.21971877**
-
-### Associated publication
 
 Citation information for the associated publication will be provided here upon publication.
 
