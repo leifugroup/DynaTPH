@@ -1,4 +1,4 @@
-# TCR–pHLA Complex: From Crystal Structure to MD Simulation and Analysis ****
+# TCR–pHLA Complex: From Crystal Structure to MD Simulation and Analysis 
 
 This repository provides an example workflow for running a complete complex molecular dynamics (MD) simulation with **GROMACS**. The pipeline takes you from raw PDB preparation and topology generation all the way through equilibration, production runs, and post-simulation analysis.
 
