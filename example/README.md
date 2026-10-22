@@ -27,17 +27,6 @@ Phase 0: System Setup ──▶ Phase 1: Equilibration (EM → NVT → NPT) ─�
 - A **Bash** shell to drive the workflow and execute the analysis scripts.
 - The `.mdp` parameter files (`em.mdp`, `nvt.mdp`, `npt.mdp`, `md.mdp`, `ions.mdp`) and the analysis scripts (`extract_traj_frames.sh`, `rmsf_sasa.sh`, `hbond.sh`).
 
-## Repository Structure
-
-```
-.
-├── Static_Data/            # Input structure (e.g. 1ao7.pdb)
-├── mdp_files/             # Simulation parameter files
-├── extract_traj_frames.sh # Extract trajectory frames
-├── rmsf_sasa.sh           # RMSF and SASA analysis
-├── hbond.sh               # Hydrogen-bond analysis
-└── README.md
-```
 
 ## Usage
 
