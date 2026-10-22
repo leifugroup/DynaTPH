@@ -115,13 +115,19 @@ Extract trajectories, then compute the following features already available from
 
 | Feature | Tool / Script     | What it measures                              |
 | ------- | ----------------- | --------------------------------------------- |
-| **RMSD**   | `gmx rms`         | Backbone / heavy-atom deviation over time     |
-| **RMSF**   | `rmsf_sasa.sh`    | Residue-level fluctuations (B-factor proxy)   |
-| **SASA**   | `rmsf_sasa.sh`    | Solvent-accessible surface area               |
-| **H-bonds** | `hbond.sh`        | Inter- and intra-chain hydrogen-bond counts   |
+| **RMSD**    | `gmx rms`              | Backbone / heavy-atom deviation over time     |
+| **RMSF**    | `rmsf_sasa.sh`         | Residue-level fluctuations (B-factor proxy)   |
+| **SASA**    | `rmsf_sasa.sh`         | Solvent-accessible surface area               |
+| **H-bonds** | `hbond.sh`             | Inter- and intra-chain hydrogen-bond counts   |
+| **Contacts** | `contact_pHLA.sh`      | pHLA interface contacts (MHC–peptide)         |
+| **Contacts** | `contact_TCR_pHLA.sh`  | TCR–pMHC interface contacts (TCR–peptide/MHC) |
+
+All analysis scripts are executed with `bash *.sh`:
 
 ```bash
 bash extract_traj_frames.sh
 bash rmsf_sasa.sh
 bash hbond.sh
+bash contact_pHLA.sh
+bash contact_TCR_pHLA.sh
 ```
