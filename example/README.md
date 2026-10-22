@@ -1,4 +1,4 @@
-# TCR–pHLA: From Crystal Structure to MD Simulation and Analysis 
+# TCR–pHLA Complex: From Crystal Structure to MD Simulation and Analysis
 
 This repository provides an example workflow for running a complete complex molecular dynamics (MD) simulation with **GROMACS**. The pipeline takes you from raw PDB preparation and topology generation all the way through equilibration, production runs, and post-simulation analysis.
 
@@ -10,27 +10,22 @@ This repository provides an example workflow for running a complete complex mole
 ## Workflow Diagram
 
 ```
-System Setup ──▶ Equilibration (EM → NVT → NPT) ──▶ Production (3×50 ns NPT) ──▶ Analysis
+Phase 0: System Setup ──▶ Phase 1: Equilibration (EM → NVT → NPT) ──▶ Phase 2: Production (3×50 ns NPT) ──▶ Phase 3: Analysis & Feature Extraction
 ```
 
 
-| Stage                     | Description                                       |
-| ------------------------- | ------------------------------------------------- |
-| **System Setup**          | Solvated system built from a clean PDB            |
-| **Equilibration**         | Energy Minimisation (EM), NVT, then NPT           |
-| **Production Simulation** | 3 independent 50 ns runs in the NPT ensemble      |
-| **Analysis**              | Extracting trajectories, structures, and analysis |
-
-
-
+| Phase | Stage                     | In → Out                                                  |
+| ----- | ------------------------- | --------------------------------------------------------- |
+| **0** | **System Setup**          | `1ao7.pdb` → `solv_ions.gro` + `topol.top`                |
+| **1** | **Equilibration**         | `solv_ions.gro` → `em.gro` → `nvt.gro` → `npt.gro`        |
+| **2** | **Production Simulation** | `npt.gro` → `md.xtc` + `md.gro` (3 × 50 ns)              |
+| **3** | **Analysis**              | `md.xtc` → RMSD/RMSF/SASA/H-bond features + trajectory frames |
 
 ## Prerequisites
 
 - **GROMACS 2023.5** – the only tested version; newer or older releases may behave differently with `-maxwarn` and checkpoint handling.
 - A **Bash** shell to drive the workflow and execute the analysis scripts.
 - The `.mdp` parameter files (`em.mdp`, `nvt.mdp`, `npt.mdp`, `md.mdp`, `ions.mdp`) and the analysis scripts (`extract_traj_frames.sh`, `rmsf_sasa.sh`, `hbond.sh`).
-
-
 
 ## Repository Structure
 
@@ -44,16 +39,13 @@ System Setup ──▶ Equilibration (EM → NVT → NPT) ──▶ Production (
 └── README.md
 ```
 
-
-
 ## Usage
 
+### Phase 0 · Build the system
 
-
-### 1. System Setup
+**In:** RCSB crystal structure (e.g. `1ao7.pdb`) &nbsp; **→** &nbsp; **Out:** `solv_ions.gro` + `topol.top`
 
 **Example Protein.** This example uses a **pMHC–TCR ternary complex** (PDB `1ao7`) composed of five polypeptide chains:
-
 
 | Chain | Component              |
 | ----- | ---------------------- |
@@ -63,8 +55,7 @@ System Setup ──▶ Equilibration (EM → NVT → NPT) ──▶ Production (
 | **D** | TCR α chain            |
 | **E** | TCR β chain            |
 
-
-Start from the crystal structure of the complex, strip away crystallographic waters and any bound ligands, perform structural preprossing, and add missing heavy atoms with MODELLER. From that prepared structure, generate a CHARMM36 topology, centre the complex in a cubic box, fill it with TIP3P water, and add counter-ions plus NaCl to reach an ionic strength of 0.15 M.
+Start from the crystal structure of the complex, strip away crystallographic waters and any bound ligands, perform structural preprocessing, and add missing heavy atoms with MODELLER. From that prepared structure, generate a CHARMM36 topology, centre the complex in a cubic box, fill it with TIP3P water, and add counter-ions plus NaCl to reach an ionic strength of 0.15 M.
 
 ```bash
 # Generate topology and process the structure
@@ -83,8 +74,9 @@ echo q | gmx make_ndx -f ions.gro
 ```
 
 
+### Phase 1 · Equilibration
 
-### 2. Equilibration
+**In:** `solv_ions.gro` + `topol.top` &nbsp; **→** &nbsp; **Out:** `npt.gro` (+ `nvt.cpt` checkpoint)
 
 Run Energy Minimisation (EM), followed by NVT and NPT equilibration:
 
@@ -103,8 +95,9 @@ nohup gmx mdrun -deffnm npt &
 ```
 
 
+### Phase 2 · Production Simulation
 
-### 3. Production Simulation
+**In:** `npt.gro` (+ `npt.cpt`) + `topol.top` &nbsp; **→** &nbsp; **Out:** `md.xtc` + `md.gro` (3 × 50 ns NPT)
 
 Launch the production MD run (3 × 50 ns, NPT ensemble):
 
@@ -114,16 +107,21 @@ nohup gmx mdrun -deffnm md &
 ```
 
 
+### Phase 3 · Analysis & Feature Extraction
 
-### 4. Analysis
+**In:** `md.xtc` (+ `md.gro` / `md.tpr`) &nbsp; **→** &nbsp; **Out:** trajectory frames + extracted features
 
-Extract trajectories and run the structural and physicochemical analyses:
+Extract trajectories, then compute the following features already available from the trajectory:
+
+| Feature | Tool / Script     | What it measures                              |
+| ------- | ----------------- | --------------------------------------------- |
+| **RMSD**   | `gmx rms`         | Backbone / heavy-atom deviation over time     |
+| **RMSF**   | `rmsf_sasa.sh`    | Residue-level fluctuations (B-factor proxy)   |
+| **SASA**   | `rmsf_sasa.sh`    | Solvent-accessible surface area               |
+| **H-bonds** | `hbond.sh`        | Inter- and intra-chain hydrogen-bond counts   |
 
 ```bash
 bash extract_traj_frames.sh
 bash rmsf_sasa.sh
 bash hbond.sh
 ```
-
-
-
