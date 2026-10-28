@@ -1,3 +1,4 @@
+﻿"# Note: Peptide–HLA binding annotations were obtained from IEDB, covering 100 DynaTPH complexes.",,,,,,,
 PDBids,PDBid_count,HLA allele,peptide sequence,Response_measured (Units nM),Quantitative,PMID,Method
 5BRZ,1,HLA-A*01:01,EVDPIGHLY,dissociation constant KD (~IC50),4.6,8938271,purified MHC/competitive/radioactivity
 5BRZ,1,HLA-A*01:01,EVDPIGHLY,half maximal inhibitory concentration (IC50),4.6,7510885,purified MHC/competitive/radioactivity
@@ -160,4 +161,3 @@ PDBids,PDBid_count,HLA allele,peptide sequence,Response_measured (Units nM),Quan
 6ZKW,1,HLA-E*01:03,RLPAKAPLL,half maximal inhibitory concentration (IC50),30,20195504,purified MHC/competitive/fluorescence
 6ZKW,1,HLA-E*01:03,RLPAKAPLL,dissociation constant KD (~IC50),5,33020145,purified MHC/competitive/fluorescence
 5W1W,1,HLA-E*01:03,VMAPRTLVL,dissociation constant KD (~IC50),6.5,22898188,purified MHC/competitive/fluorescence
-# Note: Peptide–HLA binding annotations were obtained from IEDB, covering approximately 100 DynaTPH complexes.
