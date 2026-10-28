@@ -47,6 +47,10 @@ Phase 0: System Setup ──▶ Phase 1: Equilibration (EM → NVT → NPT) ─�
 Start from the crystal structure of the complex, strip away crystallographic waters and any bound ligands, perform structural preprocessing, and add missing heavy atoms with MODELLER. From that prepared structure, generate a CHARMM36 topology, centre the complex in a cubic box, fill it with TIP3P water, and add counter-ions plus NaCl to reach an ionic strength of 0.15 M.
 
 ```bash
+# Create folders and run commands 3 times
+mkdir 0 1 2
+# Note: The following setup commands should be executed three times in separate `0`, `1`, and `2` folders for the same system.
+
 # Generate topology and process the structure
 gmx pdb2gmx -f Static_Data/1ao7.pdb -ignh -ff charmm36 -water tip3p -o conf.pdb
 echo System | gmx editconf -f conf.pdb -o box_x.gro -c -princ
@@ -120,3 +124,4 @@ bash hbond.sh
 bash contact_pHLA.sh
 bash contact_TCR_pHLA.sh
 ```
+Note: After performing the analysis in the three folders (0, 1, and 2), the properties provided in descriptors.csv are obtained by calculating the average of the results.
