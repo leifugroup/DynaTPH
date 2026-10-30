@@ -18,7 +18,7 @@ for dir in */; do
 #            echo "11" | gmx rmsf -s md.tpr -f "${dir}_${sub_dir}.xtc" -n chain_index.ndx -o "${dir}_${sub_dir}_pep_rmsf.xvg" -res -b 40000 -e 50000
 
             # Run the gmx sasa command.
-            echo "11" | gmx sasa -s md.tpr -f "${dir}_${sub_dir}.xtc" -n chain_index.ndx -o "${dir}_${sub_dir}_pep_sasa.xvg" 
+            echo "11" | gmx sasa -s md.tpr -f "${dir}_${sub_dir}.xtc" -n chain_index.ndx -o "${dir}_${sub_dir}_pep_sasa.xvg"  -b 40000 -e 50000
             # Return to the original working directory.
             cd "$current_dir"
         fi
