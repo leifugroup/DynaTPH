@@ -76,6 +76,7 @@ The overall organization of the dataset is illustrated below.
 **This GitHub repository contains the lightweight components of DynaTPH and is organized as follows:**
 
 
+---
 
 ## Citation
 
