@@ -1,0 +1,174 @@
+﻿# Note: IEDB-derived peptide–HLA binding data for 100 DynaTPH complexes. “NA” indicates information not provided in the original database,,,,,,,,
+PDBids,PDBid_count,HLA allele,peptide sequence,Response_measured (Units nM),Quantitative,PMID,Method,Assay ID
+5BRZ,1,HLA-A*01:01,EVDPIGHLY,dissociation constant KD (~IC50),4.6,8938271,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/203381
+5BRZ,1,HLA-A*01:01,EVDPIGHLY,half maximal inhibitory concentration (IC50),4.6,7510885,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/200947
+5BRZ,1,HLA-A*01:01,EVDPIGHLY,dissociation constant KD (~EC50),70.59,NA,purified MHC/direct/fluorescence,http://www.iedb.org/assay/1100419
+8YIV,1,HLA-A*01:01,ILDTAGKEEY,dissociation constant KD (~IC50),260,38081856,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/22753308
+8YJ2,1,HLA-A*01:01,ILDTAGREEY,dissociation constant KD (~IC50),19,NA,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/3000107
+8YJ2,1,HLA-A*01:01,ILDTAGREEY,dissociation constant KD (~IC50),246,38081856,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/22753320
+3QDJ / 3QEQ / 6D78 / 6EQA / 6EQB,5,HLA-A*02:01,AAGIGILTV,dissociation constant KD (~EC50),10000,34290406,purified MHC/direct/fluorescence,http://www.iedb.org/assay/16373996
+3QDJ / 3QEQ / 6D78 / 6EQA / 6EQB,5,HLA-A*02:01,AAGIGILTV,dissociation constant KD (~IC50),1063.8,9862732,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/205476
+3QDJ / 3QEQ / 6D78 / 6EQA / 6EQB,5,HLA-A*02:01,AAGIGILTV,dissociation constant KD (~IC50),130,8938271,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/203379
+3QDJ / 3QEQ / 6D78 / 6EQA / 6EQB,5,HLA-A*02:01,AAGIGILTV,half maximal inhibitory concentration (IC50),130,7868898,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/201694
+3QDJ / 3QEQ / 6D78 / 6EQA / 6EQB,5,HLA-A*02:01,AAGIGILTV,half maximal inhibitory concentration (IC50),395,7706734,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/201470
+3QDJ / 3QEQ / 6D78 / 6EQA / 6EQB,5,HLA-A*02:01,AAGIGILTV,half maximal inhibitory concentration (IC50),6955,25505266,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/2381516
+1LP9,1,HLA-A*02:01,ALWGFFPVL,half maximal inhibitory concentration (IC50),2.7,9103427,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1775814
+3UTS / 3UTT,2,HLA-A*02:01,ALWGPDPAAA,half maximal inhibitory concentration (IC50),1008,29562882,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/3829671
+3UTS / 3UTT,2,HLA-A*02:01,ALWGPDPAAA,half maximal inhibitory concentration (IC50),1620,22898188,cellular MHC/competitive/fluorescence,http://www.iedb.org/assay/2856731
+3UTS / 3UTT,2,HLA-A*02:01,ALWGPDPAAA,half maximal inhibitory concentration (IC50),490.8,22943201,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1954253
+4EUQ / 4QOK / 6TMO / 7Q9B,4,HLA-A*02:01,EAAGIGILTV,half maximal inhibitory concentration (IC50),14560,25311806,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/2369616
+4EUQ / 4QOK / 6TMO / 7Q9B,4,HLA-A*02:01,EAAGIGILTV,half maximal inhibitory concentration (IC50),22500,36032094,cellular MHC/competitive/fluorescence,http://www.iedb.org/assay/22440861
+4EUQ / 4QOK / 6TMO / 7Q9B,4,HLA-A*02:01,EAAGIGILTV,dissociation constant KD (~IC50),2272,7706734,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/201472
+3HG1 / 3QDG / 3QDM / 4JFF / 4L3E / 5E9D / 5NHT / 5NQK / 6DKP,9,HLA-A*02:01,ELAGIGILTV,half maximal inhibitory concentration (IC50),1900,25311806,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/2369618
+3HG1 / 3QDG / 3QDM / 4JFF / 4L3E / 5E9D / 5NHT / 5NQK / 6DKP,9,HLA-A*02:01,ELAGIGILTV,half maximal inhibitory concentration (IC50),2480,36032094,cellular MHC/competitive/fluorescence,http://www.iedb.org/assay/22440869
+3HG1 / 3QDG / 3QDM / 4JFF / 4L3E / 5E9D / 5NHT / 5NQK / 6DKP,9,HLA-A*02:01,ELAGIGILTV,half maximal inhibitory concentration (IC50),46,25505266,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/2381517
+1OGA / 2VLJ / 2VLK / 2VLR / 5E6I / 5EUO / 5ISZ / 5JHD / 5TEZ,9,HLA-A*02:01,GILGFVFTL,dissociation constant KD (~IC50),1,20156506,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1828282
+1OGA / 2VLJ / 2VLK / 2VLR / 5E6I / 5EUO / 5ISZ / 5JHD / 5TEZ,9,HLA-A*02:01,GILGFVFTL,half maximal inhibitory concentration (IC50),1020,36032094,cellular MHC/competitive/fluorescence,http://www.iedb.org/assay/22440946
+1OGA / 2VLJ / 2VLK / 2VLR / 5E6I / 5EUO / 5ISZ / 5JHD / 5TEZ,9,HLA-A*02:01,GILGFVFTL,half maximal inhibitory concentration (IC50),12.4,7547687,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1006868
+1OGA / 2VLJ / 2VLK / 2VLR / 5E6I / 5EUO / 5ISZ / 5JHD / 5TEZ,9,HLA-A*02:01,GILGFVFTL,half maximal inhibitory concentration (IC50),1200,22898188,cellular MHC/competitive/fluorescence,http://www.iedb.org/assay/2856733
+1OGA / 2VLJ / 2VLK / 2VLR / 5E6I / 5EUO / 5ISZ / 5JHD / 5TEZ,9,HLA-A*02:01,GILGFVFTL,dissociation constant KD,2000,9263005,cellular MHC/competitive/fluorescence,http://www.iedb.org/assay/7606716
+1OGA / 2VLJ / 2VLK / 2VLR / 5E6I / 5EUO / 5ISZ / 5JHD / 5TEZ,9,HLA-A*02:01,GILGFVFTL,half maximal inhibitory concentration (IC50),2247,16156661,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1356982
+1OGA / 2VLJ / 2VLK / 2VLR / 5E6I / 5EUO / 5ISZ / 5JHD / 5TEZ,9,HLA-A*02:01,GILGFVFTL,dissociation constant KD (~EC50),3,26731261,purified MHC/direct/fluorescence,http://www.iedb.org/assay/2642927
+1OGA / 2VLJ / 2VLK / 2VLR / 5E6I / 5EUO / 5ISZ / 5JHD / 5TEZ,9,HLA-A*02:01,GILGFVFTL,half maximal inhibitory concentration (IC50),3.4,18842709,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1598441
+1OGA / 2VLJ / 2VLK / 2VLR / 5E6I / 5EUO / 5ISZ / 5JHD / 5TEZ,9,HLA-A*02:01,GILGFVFTL,half maximal inhibitory concentration (IC50),3.4,19734234,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1866750
+1OGA / 2VLJ / 2VLK / 2VLR / 5E6I / 5EUO / 5ISZ / 5JHD / 5TEZ,9,HLA-A*02:01,GILGFVFTL,half maximal inhibitory concentration (IC50),30,7539551,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1811238
+1OGA / 2VLJ / 2VLK / 2VLR / 5E6I / 5EUO / 5ISZ / 5JHD / 5TEZ,9,HLA-A*02:01,GILGFVFTL,half maximal inhibitory concentration (IC50),4000,10553078,cellular MHC/competitive/fluorescence,http://www.iedb.org/assay/1403362
+1OGA / 2VLJ / 2VLK / 2VLR / 5E6I / 5EUO / 5ISZ / 5JHD / 5TEZ,9,HLA-A*02:01,GILGFVFTL,half maximal inhibitory concentration (IC50),471,19655751,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1942983
+1OGA / 2VLJ / 2VLK / 2VLR / 5E6I / 5EUO / 5ISZ / 5JHD / 5TEZ,9,HLA-A*02:01,GILGFVFTL,half maximal inhibitory concentration (IC50),6,8047072,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/201951
+1OGA / 2VLJ / 2VLK / 2VLR / 5E6I / 5EUO / 5ISZ / 5JHD / 5TEZ,9,HLA-A*02:01,GILGFVFTL,half maximal inhibitory concentration (IC50),6.6,10773346,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/11137
+1OGA / 2VLJ / 2VLK / 2VLR / 5E6I / 5EUO / 5ISZ / 5JHD / 5TEZ,9,HLA-A*02:01,GILGFVFTL,half maximal inhibitory concentration (IC50),600,8617954,cellular MHC/competitive/fluorescence,http://www.iedb.org/assay/1354775
+1OGA / 2VLJ / 2VLK / 2VLR / 5E6I / 5EUO / 5ISZ / 5JHD / 5TEZ,9,HLA-A*02:01,GILGFVFTL,dissociation constant KD,7.7,29429978,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/3817445
+3O4L,1,HLA-A*02:01,GLCTLVAML,dissociation constant KD,59,NA,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1735234
+6VQO / 6VRM / 6VRN / 7RM4,4,HLA-A*02:01,HMTEVVRHC,half maximal inhibitory concentration (IC50),4210,32571843,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/22341495
+6VMC,1,HLA-A*02:01,ILDQVPFSV,half maximal inhibitory concentration (IC50),3.3,8805655,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/202676
+6VM8 / 6VM9,2,HLA-A*02:01,IMDQVPFSV,half maximal inhibitory concentration (IC50),19.1,8805655,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/202682
+6VM7 / 6VMA,2,HLA-A*02:01,ITDQVPFSV,dissociation constant KD (~EC50),1000,34290406,purified MHC/direct/fluorescence,http://www.iedb.org/assay/16373990
+6VM7 / 6VMA,2,HLA-A*02:01,ITDQVPFSV,half maximal inhibitory concentration (IC50),172,8805655,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/202684
+6VM7 / 6VMA,2,HLA-A*02:01,ITDQVPFSV,dissociation constant KD,4.5,NA,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1720364
+6VM7 / 6VMA,2,HLA-A*02:01,ITDQVPFSV,half maximal inhibitory concentration (IC50),83.3,9029118,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/203584
+6VM7 / 6VMA,2,HLA-A*02:01,ITDQVPFSV,dissociation constant KD (~IC50),84,8938271,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/203387
+6VM7 / 6VMA,2,HLA-A*02:01,ITDQVPFSV,half maximal inhibitory concentration (IC50),84,7706734,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/201473
+5JZI / 5YXN,2,HLA-A*02:01,KLVALGINAV,half maximal inhibitory concentration (IC50),36,25008925,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/2119471
+5JZI / 5YXN,2,HLA-A*02:01,KLVALGINAV,dissociation constant KD (~IC50),4.98,NA,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1022456
+5JZI / 5YXN,2,HLA-A*02:01,KLVALGINAV,dissociation constant KD (~IC50),449,9410918,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1314160
+5JZI / 5YXN,2,HLA-A*02:01,KLVALGINAV,half maximal inhibitory concentration (IC50),45,16175596,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1273151
+5JZI / 5YXN,2,HLA-A*02:01,KLVALGINAV,dissociation constant KD (~IC50),5,18941234,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1627818
+5JZI / 5YXN,2,HLA-A*02:01,KLVALGINAV,half maximal inhibitory concentration (IC50),5,15939790,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1278581
+5JZI / 5YXN,2,HLA-A*02:01,KLVALGINAV,half maximal inhibitory concentration (IC50),5,22508927,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1955179
+5JZI / 5YXN,2,HLA-A*02:01,KLVALGINAV,half maximal inhibitory concentration (IC50),5000,8617954,cellular MHC/competitive/fluorescence,http://www.iedb.org/assay/1354753
+1QRN,1,HLA-A*02:01,LLFGYAVYV,dissociation constant KD (~IC50),4.5,7732026,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/201484
+1QSF,1,HLA-A*02:01,LLFGYPVAV,dissociation constant KD (~IC50),4.5,7732026,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/201485
+1AO7 / 1BD2 / 4FTV,3,HLA-A*02:01,LLFGYPVYV,half maximal inhibitory concentration (IC50),13,7529283,cellular MHC/competitive/radioactivity,http://www.iedb.org/assay/201187
+1AO7 / 1BD2 / 4FTV,3,HLA-A*02:01,LLFGYPVYV,dissociation constant KD (~IC50),3.8,7732026,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/201486
+1AO7 / 1BD2 / 4FTV,3,HLA-A*02:01,LLFGYPVYV,half maximal inhibitory concentration (IC50),800,8617954,cellular MHC/competitive/fluorescence,http://www.iedb.org/assay/1354765
+3GSN / 5D2L / 5D2N,3,HLA-A*02:01,NLVPMVATV,dissociation constant KD,12.3,NA,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1718538
+3GSN / 5D2L / 5D2N,3,HLA-A*02:01,NLVPMVATV,half maximal inhibitory concentration (IC50),12500,10553078,cellular MHC/competitive/fluorescence,http://www.iedb.org/assay/316759
+3GSN / 5D2L / 5D2N,3,HLA-A*02:01,NLVPMVATV,half maximal inhibitory concentration (IC50),17000,19655750,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1848951
+3GSN / 5D2L / 5D2N,3,HLA-A*02:01,NLVPMVATV,half maximal inhibitory concentration (IC50),19220,16156661,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1357011
+3GSN / 5D2L / 5D2N,3,HLA-A*02:01,NLVPMVATV,half maximal inhibitory concentration (IC50),45,25505266,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/2381515
+3GSN / 5D2L / 5D2N,3,HLA-A*02:01,NLVPMVATV,half maximal inhibitory concentration (IC50),4860,19655751,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1942861
+7N1E / 8GOM,2,HLA-A*02:01,RLQSLQTYV,half maximal inhibitory concentration (IC50),2.7,19734234,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1869725
+7N1E / 8GOM,2,HLA-A*02:01,RLQSLQTYV,dissociation constant KD (~IC50),2.75,NA,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1024388
+5NMG,1,HLA-A*02:01,SLFNTIAVL,dissociation constant KD (~EC50),29,16388312,purified MHC/direct/fluorescence,http://www.iedb.org/assay/1985680
+5NMG,1,HLA-A*02:01,SLFNTIAVL,dissociation constant KD (~EC50),5,19412183,purified MHC/direct/fluorescence,http://www.iedb.org/assay/2006474
+5NMG,1,HLA-A*02:01,SLFNTIAVL,half maximal inhibitory concentration (IC50),94,16702212,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1984849
+2BNR / 2F53 / 2F54 / 2P5E / 2P5W / 2PYE,6,HLA-A*02:01,SLLMWITQC,half maximal inhibitory concentration (IC50),13487,32571843,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/8269226
+2BNR / 2F53 / 2F54 / 2P5E / 2P5W / 2PYE,6,HLA-A*02:01,SLLMWITQC,dissociation constant KD (~IC50),21070,12097265,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/208218
+2BNR / 2F53 / 2F54 / 2P5E / 2P5W / 2PYE,6,HLA-A*02:01,SLLMWITQC,half maximal inhibitory concentration (IC50),4450,36032094,cellular MHC/competitive/fluorescence,http://www.iedb.org/assay/22440862
+2BNQ / 6Q3S / 6RP9 / 6RPA / 6RPB,5,HLA-A*02:01,SLLMWITQV,dissociation constant KD,1.2,NA,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/22330164
+2BNQ / 6Q3S / 6RP9 / 6RPA / 6RPB,5,HLA-A*02:01,SLLMWITQV,half maximal inhibitory concentration (IC50),1190,36032094,cellular MHC/competitive/fluorescence,http://www.iedb.org/assay/22440887
+5NMF,1,HLA-A*02:01,SLYNTIATL,dissociation constant KD (~EC50),5,19412183,purified MHC/direct/fluorescence,http://www.iedb.org/assay/2006468
+5NMF,1,HLA-A*02:01,SLYNTIATL,half maximal inhibitory concentration (IC50),620,16702212,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1984848
+5NMF,1,HLA-A*02:01,SLYNTIATL,dissociation constant KD (~EC50),94,16388312,purified MHC/direct/fluorescence,http://www.iedb.org/assay/1985694
+5NME,1,HLA-A*02:01,SLYNTVATL,dissociation constant KD,150,NA,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1724769
+5NME,1,HLA-A*02:01,SLYNTVATL,half maximal inhibitory concentration (IC50),1500,8617954,cellular MHC/competitive/fluorescence,http://www.iedb.org/assay/1354777
+5NME,1,HLA-A*02:01,SLYNTVATL,dissociation constant KD (~IC50),19.2,NA,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1022255
+5NME,1,HLA-A*02:01,SLYNTVATL,dissociation constant KD (~EC50),300,16388312,purified MHC/direct/fluorescence,http://www.iedb.org/assay/1985681
+5NME,1,HLA-A*02:01,SLYNTVATL,half maximal inhibitory concentration (IC50),4248,20419832,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1783068
+5NME,1,HLA-A*02:01,SLYNTVATL,dissociation constant KD (~EC50),5,19412183,purified MHC/direct/fluorescence,http://www.iedb.org/assay/2006467
+5NME,1,HLA-A*02:01,SLYNTVATL,half maximal inhibitory concentration (IC50),50,16702212,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1984847
+5NME,1,HLA-A*02:01,SLYNTVATL,half maximal inhibitory concentration (IC50),5720,19655751,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1942976
+5NME,1,HLA-A*02:01,SLYNTVATL,half maximal inhibitory concentration (IC50),6068,16156661,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1357006
+5NME,1,HLA-A*02:01,SLYNTVATL,half maximal inhibitory concentration (IC50),61,11424007,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/206968
+5NME,1,HLA-A*02:01,SLYNTVATL,half maximal inhibitory concentration (IC50),79,23527138,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1977172
+5EU6 / 7PHR,2,HLA-A*02:01,YLEPGPVTV,half maximal inhibitory concentration (IC50),45.5,8805655,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/202701
+7N1F / 7N6E / 7PBE / 7RTR,4,HLA-A*02:01,YLQPRTFLL,dissociation constant KD,75,37796941,binding assay,http://www.iedb.org/assay/22666044
+5YXU,1,HLA-A*02:01:48,KLVALGINAV,half maximal inhibitory concentration (IC50),36,25008925,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/2119471
+5YXU,1,HLA-A*02:01:48,KLVALGINAV,dissociation constant KD (~IC50),4.98,NA,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1022456
+5YXU,1,HLA-A*02:01:48,KLVALGINAV,dissociation constant KD (~IC50),449,9410918,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1314160
+5YXU,1,HLA-A*02:01:48,KLVALGINAV,half maximal inhibitory concentration (IC50),45,16175596,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1273151
+5YXU,1,HLA-A*02:01:48,KLVALGINAV,dissociation constant KD (~IC50),5,18941234,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1627818
+5YXU,1,HLA-A*02:01:48,KLVALGINAV,half maximal inhibitory concentration (IC50),5,15939790,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1278581
+5YXU,1,HLA-A*02:01:48,KLVALGINAV,half maximal inhibitory concentration (IC50),5,22508927,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1955179
+5YXU,1,HLA-A*02:01:48,KLVALGINAV,half maximal inhibitory concentration (IC50),5000,8617954,cellular MHC/competitive/fluorescence,http://www.iedb.org/assay/1354753
+8RRO,1,HLA-A*03:01,VVVGAVGVGK,dissociation constant KD (~IC50),44.2,35474673,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/22517403
+8I5C / 8I5D / 8WTE / 8WUL,4,HLA-A*11:01,VVGAVGVGK,half maximal inhibitory concentration (IC50),5071,35720289,cellular MHC/competitive/fluorescence,http://www.iedb.org/assay/22399808
+8I5C / 8I5D / 8WTE / 8WUL,4,HLA-A*11:01,VVGAVGVGK,dissociation constant KD (~IC50),7.7,35474673,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/22517406
+7OW6 / 7PB2,2,HLA-A*11:01,VVVGADGVGK,half maximal inhibitory concentration (IC50),15030,35720289,cellular MHC/competitive/fluorescence,http://www.iedb.org/assay/22399814
+7OW6 / 7PB2,2,HLA-A*11:01,VVVGADGVGK,dissociation constant KD (~IC50),33.1,35474673,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/22517402
+7OW5,1,HLA-A*11:01,VVVGAGGVGK,dissociation constant KD (~IC50),12.4,35474673,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/22517395
+7NMG,1,HLA-A*24:02,LWMRLLPLL,half maximal inhibitory concentration (IC50),545,29562882,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/3829696
+3VXR / 5XOV,2,HLA-A*24:02,RYPLTFGWCF,dissociation constant KD (~IC50),17,12538723,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/208895
+6VMX,1,HLA-B*07:02,RPPIFIRRL,half maximal inhibitory concentration (IC50),21,12559623,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/208960
+6VMX,1,HLA-B*07:02,RPPIFIRRL,dissociation constant KD (~EC50),356,NA,purified MHC/direct/fluorescence,http://www.iedb.org/assay/1099767
+4QRP,1,HLA-B*08:01,HSKKKCDEL,half maximal inhibitory concentration (IC50),764,22508927,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1955178
+4QRP,1,HLA-B*08:01,HSKKKCDEL,dissociation constant KD (~IC50),76600,NA,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1022466
+4G8G,1,HLA-B*27:05,KRWIILGLNK,half maximal inhibitory concentration (IC50),0.22,23978718,cellular MHC/competitive/radioactivity,http://www.iedb.org/assay/2019420
+8V51,1,HLA-B*35:01,LPFEKSTVM,half maximal inhibitory concentration (IC50),1100,11836437,cellular MHC/competitive/fluorescence,http://www.iedb.org/assay/8156
+8EN8,1,HLA-B*35:01-NP4,LPFDKSTIM,half maximal inhibitory concentration (IC50),1500,11836437,cellular MHC/competitive/fluorescence,http://www.iedb.org/assay/8199
+2IAM / 4E41,2,HLA-DRB1*01:01,GELIGILNAAKVPAD,dissociation constant KD (~IC50),25,12051920,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1907126
+2IAN,1,HLA-DRB1*01:01,GELIGTLNAAKVPAD,dissociation constant KD (~IC50),13,12051920,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1907127
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),1,17056584,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1810651
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),1,31915285,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/7104288
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),1.8,22871092,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1966799
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),10,12952957,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1792675
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),100,9233633,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1884321
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),138000,7604034,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1339396
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,dissociation constant KD,15,12849994,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1336282
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),2,18354173,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1491951
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),2,8144889,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1586394
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),2.72,29758051,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/3929231
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,dissociation constant KD (~IC50),20,22953050,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1954503
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),200,12849994,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1336283
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),200,10438899,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1420899
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,dissociation constant KD,30,31201628,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/5591326
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),30,7836921,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/201664
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),4.2,28481943,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/3319360
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),40,23719902,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/2562698
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),4000,9366419,cellular MHC/competitive/fluorescence,http://www.iedb.org/assay/2423061
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,dissociation constant KD (~IC50),5,12051920,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/1907129
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),5,1401902,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/200160
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),5,7836921,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/201665
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),5,7895164,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/201876
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,dissociation constant KD,52,32010139,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/6477706
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),6.3,12393451,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1770526
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),600,1704034,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/200421
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),63,26740625,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/2751288
+1FYT,1,HLA-DRB1*01:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),96,24606696,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/2094965
+1J8H,1,HLA-DRB1*04:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),1000,9233633,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1884315
+1J8H,1,HLA-DRB1*04:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),11,22871092,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1966800
+1J8H,1,HLA-DRB1*04:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),134,29758051,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/3929236
+1J8H,1,HLA-DRB1*04:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),1400,12021103,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1700834
+1J8H,1,HLA-DRB1*04:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),1400,12731068,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1808978
+1J8H,1,HLA-DRB1*04:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),160,22069252,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1885461
+1J8H,1,HLA-DRB1*04:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),19440,30199554,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/4563527
+1J8H,1,HLA-DRB1*04:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),2000,10438899,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1420920
+1J8H,1,HLA-DRB1*04:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),28.3,12393451,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1770529
+1J8H,1,HLA-DRB1*04:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),30,17056584,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1810652
+1J8H,1,HLA-DRB1*04:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),30,24665079,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/2110906
+1J8H,1,HLA-DRB1*04:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),310,24983460,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/2111035
+1J8H,1,HLA-DRB1*04:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),33,28481943,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/3319361
+1J8H,1,HLA-DRB1*04:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),38,18354173,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1491952
+1J8H,1,HLA-DRB1*04:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),40,8144889,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1586395
+1J8H,1,HLA-DRB1*04:01,PKYVKQNTLKLAT,dissociation constant KD (~EC50),42.81,24983460,purified MHC/direct/fluorescence,http://www.iedb.org/assay/2111043
+1J8H,1,HLA-DRB1*04:01,PKYVKQNTLKLAT,dissociation constant KD (~IC50),45,7690794,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/201459
+1J8H,1,HLA-DRB1*04:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),45,1401902,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/200162
+1J8H,1,HLA-DRB1*04:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),45,7895164,purified MHC/competitive/radioactivity,http://www.iedb.org/assay/201878
+1J8H,1,HLA-DRB1*04:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),5,31915285,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/7104290
+1J8H,1,HLA-DRB1*04:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),50,22978463,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1961206
+1J8H,1,HLA-DRB1*04:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),70,24606696,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/2094964
+1J8H,1,HLA-DRB1*04:01,PKYVKQNTLKLAT,half maximal inhibitory concentration (IC50),810,7539763,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1648508
+2ESV,1,HLA-E*01:01,VMAPRTLIL,dissociation constant KD,0.5,NA,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1719851
+6ZKW,1,HLA-E*01:03,RLPAKAPLL,half maximal inhibitory concentration (IC50),30,20195504,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/1833153
+6ZKW,1,HLA-E*01:03,RLPAKAPLL,dissociation constant KD (~IC50),5,33020145,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/12165015
+5W1W,1,HLA-E*01:03,VMAPRTLVL,dissociation constant KD (~IC50),6.5,22898188,purified MHC/competitive/fluorescence,http://www.iedb.org/assay/2856727
