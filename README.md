@@ -165,7 +165,24 @@ These features provide complementary information on structural stability, confor
 
 ---
 
-### 4. `descriptor.csv`
+
+### 4. Rep_Stru_MD
+
+The `Rep_Stru_MD` directory provides **one representative structure for each of the 256 TCR-pHLA complexes**.
+
+Each structure is extracted from the **final frame of Replica0** after equilibration and is provided in PDB format:
+
+```text
+Rep_Stru_MD/
+├── 1BD2.pdb
+├── XXXX.pdb
+└── ...
+```
+
+This directory offers a convenient snapshot for structural inspection and reuse without requiring users to access the full trajectories.
+
+---
+### 5. `descriptor.csv`
 
 `descriptor.csv` is the **system-level descriptor file** of DynaTPH.
 
@@ -201,7 +218,7 @@ Information describing structural modifications and preprocessing applied before
 
 ---
 
-### 5. `rmsf.csv`
+### 6. `rmsf.csv`
 
 `rmsf.csv` provides **residue-level RMSF information for peptide residues** in individual TCR-pHLA complexes.
 
@@ -211,22 +228,6 @@ Because peptide sequences have variable lengths, residue-level RMSF values are p
 
 ---
 
-### 6. Rep_Stru_MD
-
-The `Rep_Stru_MD` directory provides **one representative structure for each of the 256 TCR-pHLA complexes**.
-
-Each structure is extracted from the **final frame of Replica0** after equilibration and is provided in PDB format:
-
-```text
-Rep_Stru_MD/
-├── 1BD2.pdb
-├── XXXX.pdb
-└── ...
-```
-
-This directory offers a convenient snapshot for structural inspection and reuse without requiring users to access the full trajectories.
-
----
 
 ### 7. `CDR3_pep_contact_freq.csv`
 
